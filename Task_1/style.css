@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./Imgs/Hacker.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #ffffff; /* Background color for the navbar */
+}
+
+.logo {
+    font-size: 30px;
+    color: #000000;
+}
+
+.logo span {
+    color: orangered;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+    transition: 0.5s linear;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: orangered;
+    transition: 0.5s linear;
+}
+
+.home {
+    border-bottom: 3px solid orangered;
+    color: #000000;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    border-bottom: none;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 7%;
+    margin-right: 8px;
+    position: relative;
+    left: -6%;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    border: 2px solid orangered;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.Sign_in {
+    background-color: orangered;
+}
+
+button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.banner-text {
+    color: white;
+    position: relative;
+    margin-left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.banner-text span {
+    color: orangered;
+    font-family: 'Lobster', cursive;
+}
+
+.banner-text p {
+    font-size: 25px;
+}
+
+.arrow_F {
+    padding: 20px 30px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+    left: 90%;
+    margin-bottom: 200px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.pages {
+    width: 100px;
+    background: #000;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.pages :nth-child(1) {
+    color: orangered;
+}
