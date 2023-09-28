@@ -154,3 +154,61 @@ button:hover {
 .pages :nth-child(1) {
     color: orangered;
 }
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .banner-text {
+        margin: 200px auto;
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .arrow_F {
+        left: 78%;
+        top: auto;
+        font-size: 15px;
+        padding: 10px 15px;
+        transform: translateX(-50%);
+    }
+
+    .pages {
+        width: inherit;
+        min-height: 80px;
+        background:none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 10px; /* Adjust margin-top */
+    }
+
+    .pages li {
+        margin-right: 5px;
+        font-size: 16px; /* Adjust font size */
+    }
+}
