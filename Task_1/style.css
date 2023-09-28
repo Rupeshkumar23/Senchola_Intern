@@ -108,6 +108,7 @@ button:hover {
 .banner-text {
     color: white;
     position: relative;
+    padding-top: 200px;
     margin-left: 20%;
     top: 50%;
     transform: translateY(-50%);
@@ -143,7 +144,7 @@ button:hover {
 
 .pages {
     width: 100px;
-    background: #000;
+    padding-top: 200px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -177,7 +178,7 @@ button:hover {
     }
 
     .banner-text {
-        margin: 200px auto;
+        margin: 100px auto;
         text-align: center;
     }
 
