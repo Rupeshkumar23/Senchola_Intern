@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+  ::selection{
+    color: #ffffff;
+    background-color: orangered;
+  }
+  main,section{
+    padding-top: 70px;
+  }
+  nav ul li a {
+    color: #000000!important;
+    font-size: 18px;
+    position: relative;
+    transition: 0.5s linear;
+  }
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: orangered;
+    transition: 0.5s linear;
+  }
+   nav ul li a:hover::after {
+      width: 100%;
+    }
+  .bg_p{
+    background-image: url('./Imgs/BG_Or.jpg');
+     background-size: cover; 
+     background-position: fixed;
+     min-height: 700px;
+     margin-bottom: 20px;
+  }
+  b {
+    color: orangered;
+    font-family: 'Lobster', cursive;
+  }
+  .product_h:hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .product_hv{
+    background: #000;
+    color: #ffffff;
+  }
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  .btn_L{
+    background-color: orangered;
+    outline:1px solid orangered;
+  }
+  .btn_L:hover{
+    background-color:orangered ;
+    color: #ffffff;
+  }
+  .btn_F{
+    background-color: rgba(255, 255, 255, .1);
+    border: 3px solid #ff4500;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+ 
+ 
+

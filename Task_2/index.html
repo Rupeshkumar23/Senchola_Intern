@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-brand fw-bold fs-2" href="#">R <b>K</b></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active home" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle lh-1 ps-3 ps-md-0 text-black"
+                                data-bs-toggle="dropdown">Company</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="./product.html" class="dropdown-item fw-semibold">Products</a>
+                                <a href="#ourteam" class="dropdown-item fw-semibold">Our Team</a>
+                                <a href="#" class="dropdown-item fw-semibold">Testimonial</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <a href="#join_us"><button class=" btn_W fw-semibold bg-white px-3 py-2 rounded-5 text-black">JOIN US</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade" data-bs-touch="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0"
+                    class="active num_1" aria-current="true" aria-label="Slide 1">
+                    01
+                </button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="num_1">
+                    02
+                </button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="num_1">
+                    03
+                </button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="3"
+                    aria-label="Slide 4" class="num_1">
+                    04
+                </button>
+                <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="4"
+                    aria-label="Slide 5" class="num_1">
+                    05
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Imgs/Hacker.jpg" class="d-block w-100" alt="S_1" />
+                    <div class="carousel-caption  d-md-block head">
+                        <h5 class="display-4 text-center fw-bold">
+                            R <span>K</span> Software Solution
+                        </h5>
+                        <p class="display-5 text-center">Learn More Be Smart</p>
+                        <!-- <a href="./sign_in.html" target="_blank"><button class="button_A Sign_in btn_B">Sign
+                                In</button></a>
+                        <button class="button_A btn_B">Read More</button> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imgs/Slide_2.jpg" class="d-block w-100" alt="S_2" />
+                    <div class="carousel-caption  d-md-block head">
+                        <h5 class="display-4 text-center fw-bold">
+                            R <span>K</span> Software Solution
+                        </h5>
+                        <p class="display-5 text-center">Learn More Be Smart</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imgs/Slide_1.jpg" class="d-block w-100" alt="S_2" />
+                    <div class="carousel-caption  d-md-block head">
+                        <h5 class="display-4 text-center fw-bold">
+                            R <span>K</span> Software Solution
+                        </h5>
+                        <p class="display-5 text-center">Learn More Be Smart</p>
+                       
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imgs/Slide_4.jpg" class="d-block w-100" alt="S_2" />
+                    <div class="carousel-caption  d-md-block head">
+                        <h5 class="display-4 text-center fw-bold">
+                            R <span>K</span> Software Solution
+                        </h5>
+                        <p class="display-5 text-center">Learn More Be Smart</p>
+                    
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imgs/Slide_3.jpg" class="d-block w-100" alt="S_3" />
+                    <div class="carousel-caption  d-md-block head">
+                        <h5 class="display-4 text-center fw-bold">
+                            R <span>K</span> Software Solution
+                        </h5>
+                        <p class="display-5 text-center">Learn More Be Smart</p>
+                     
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="services" class="mt-5">
+        <h1 class="display-3 text-center">Our Services</h1>
+        <div class="container-fluid d-flex flex-wrap justify-content-center my-5">
+            <div class="card mx-3 my-3 rounded-5 font_C col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-laptop-code d-flex justify-content-center mt-4 display-3"></i>
+                <div class="card-body">
+                    <h3 class="fs-4 fw-bold text-center text-uppercase">Coding</h3>
+                    <p class="card-text">
+                        Explore the world of programming and coding languages. From Python
+                        and JavaScript to Java and C++, embark on a journey to develop
+                        software solutions and create digital wonders.
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 rounded-5 font_C col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-cloud-arrow-up d-flex justify-content-center mt-4 display-3"></i>
+                <div class="card-body">
+                    <h3 class="fs-4 fw-bold text-center text-uppercase">Cloud</h3>
+                    <p class="card-text">
+                        Discover the power of cloud computing and its impact on modern technology. From managing data
+                        in the cloud to building scalable applications, explore the possibilities of cloud technology
+                        and its role in shaping the digital world.
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 rounded-5 font_C col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-network-wired d-flex justify-content-center mt-4 display-3"></i>
+                <div class="card-body">
+                    <h3 class="fs-4 fw-bold text-center text-uppercase">
+                        Network-Wired
+                    </h3>
+                    <p class="card-text">
+                        Delve into the intricacies of network infrastructure. Learn about
+                        wired connections, routers, switches, and the technologies that
+                        keep the digital world connected seamlessly.
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 rounded-5 font_C col-12 col-md-6 col-lg-4">
+                <i class="fa-solid fa-database d-flex justify-content-center mt-4 display-3"></i>
+                <div class="card-body">
+                    <h3 class="fs-4 fw-bold text-center text-uppercase">Database</h3>
+                    <p class="card-text">
+                        Dive into the realm of databases and data management. Discover the
+                        power of structured data storage, retrieval, and analysis,
+                        essential for modern applications and information systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section id="about">
+        <h1 class="display-3 text-center">About us</h1>
+        <section class="container-fluid d-flex justify-content-sm-center align-items-center justify-content-center mt-5"
+            style="
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+            url('./Imgs/BG_Or.jpg');
+          background-size: cover;
+          width: 99.3%;
+          min-height: 600px;
+        ">
+            <div class="row p-4 container-fluid">
+                <div class="col-lg-6">
+                    <h1 class="display-5 text-white col-12">
+                        Welcome to R<span>K</span> SOFTWARE SOLUTION
+                    </h1>
+                    <p class="lead text-white">
+                        At R K SOFTWARE SOLUTION, we are deeply committed to delivering innovative and state-of-the-art solutions, backed by a wealth of expertise, to empower both individuals and businesses alike. Our unwavering mission revolves around fostering your success in the ever-evolving digital landscape. We are driven by the relentless pursuit of excellence and stand ready to provide you with the tools, knowledge, and support needed to thrive and prosper in today's dynamic digital world.
+                    </p>
+                    <button class="btn btn_W bg-white fw-bolder p-3 rounded-5 text-white">
+                        Read More
+                    </button>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center g-5">
+                    <div class="img_1 img-fluid rounded-circle"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <hr>
+    <section id="ourteam">
+        <h1 class="display-3 text-center mt-3 mb-5">Our Team</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <image xlink:href="./Imgs/man.png" width="100%" height="100%" fill="#777" />
+                    </svg>
+    
+                    <h2 class="fw-normal">Jackson</h2>
+                    <p>Meet our first team member, who brings expertise in software development and problem-solving. They are passionate about delivering top-notch solutions to our clients.</p>
+                    <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+               
+                        <image xlink:href="./Imgs/woman (1).png" width="100%" height="100%" fill="#777" />
+                    </svg>
+    
+                    <h2 class="fw-normal">Olivia</h2>
+                    <p>Introducing our second team member, who specializes in project management and client communication. They ensure our projects run smoothly and our clients are satisfied.</p>
+                    <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <image xlink:href="./Imgs/user.png" width="100%" height="100%" fill="#777" />
+                    </svg>
+    
+                    <h2 class="fw-normal">Noah</h2>
+                    <p>Meet our third team member, who is an expert in digital marketing and strategy. They help our clients succeed in the competitive digital landscape.</p>
+                    <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+                </div>
+                
+            <div class="col-md-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <image xlink:href="./Imgs/woman_2.png" width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <h2 class="fw-normal">Emma</h2>
+                <p>Our fourth team member is an experienced front-end developer with a strong passion for creating user-friendly and visually appealing web applications.</p>
+                <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <image xlink:href="./Imgs/man_1.png" width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <h2 class="fw-normal">Leo</h2>
+                <p>Our fifth team member is a backend developer with a strong background in database design and server-side programming. They ensure our applications run efficiently and securely.</p>
+                <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <image xlink:href="./Imgs/woman.png" width="100%" height="100%" fill="#777" />
+                </svg>
+
+                <h2 class="fw-normal">Ava</h2>
+                <p>Our sixth team member is a graphic designer with a keen eye for aesthetics. They ensure our projects have stunning visuals that leave a lasting impression.</p>
+                <p><a class=" Sign_in fw-semibold bg-white px-3 py-2 rounded-5 text-white" href="#">View details &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr/>
+    <section id="join_us">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class=" text-center org fw-semibold">
+                        Join Us
+                    </h5>
+                    <h1 class="mb-5">Contact For Any Query</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="row gy-4">
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start org">
+                                    Booking
+                                </h5>
+                                <p>
+                                    <i class="fa fa-envelope-open org me-2"></i>book@example.com
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start org">
+                                    General
+                                </h5>
+                                <p>
+                                    <i class="fa fa-envelope-open org me-2"></i>info@example.com
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start org">
+                                    Technical
+                                </h5>
+                                <p>
+                                    <i class="fa fa-envelope-open org me-2"></i>tech@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                        <iframe class="position-relative rounded w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                            frameborder="0" style="min-height: 350px; border: 0" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Your Email" />
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject"
+                                                placeholder="Subject" />
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" style="height: 150px"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn Sign_in w-100 fw-semibold py-3" type="submit">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <footer class="site-footer bg-black text-white mt-4" id="contact">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="foot-about mt-5">
+                            <h2>
+                                <a class="fw-bold fs-2 text-white text-decoration-none" href="#">R <b>K</b></a>
+                            </h2>
+                            <p>
+                                At R K SOFTWARE SOLUTION, our commitment is to deliver
+                                innovative solutions and expertise that empower individuals
+                                and businesses. Our core mission revolves around ensuring your
+                                success in the ever-evolving digital landscape.
+                            </p>
+                            <ul class="fs-3 d-flex flex-wrap align-items-center gap-4 list-unstyled">
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-facebook-f icon-hover-effect"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-youtube icon-hover-effect"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-whatsapp icon-hover-effect"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-instagram icon-hover-effect"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5">
+                        <h2>Useful Links</h2>
+                        <ul class="list-unstyled">
+                            <li class="gap_l">
+                                <a class="text-decoration-none text-white" href="#">Services</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">Our Team</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">Client Testimonials</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none text-white" href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5">
+                        <div class="foot-latest-news">
+                            <h2>Latest News</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h3><a class="title_t" href="#">New Product Launch</a></h3>
+                                    <div class="posted-date">October 5, 2023</div>
+                                    <p>
+                                        Discover our latest product that will revolutionize the
+                                        industry.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        <a class="title_t" href="#">Customer Success Stories</a>
+                                    </h3>
+                                    <div class="posted-date">October 3, 2023</div>
+                                    <p>
+                                        Read about how our solutions have helped our clients
+                                        achieve success.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3><a class="title_t" href="#">Upcoming Events</a></h3>
+                                    <div class="posted-date">October 1, 2023</div>
+                                    <p>
+                                        Join us at upcoming events and stay updated with our
+                                        activities.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5">
+                        <div class="foot-contact">
+                            <h2>Contact</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone"></i><span class="text-white ms-2">+45 677 8993000 223</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i><span><a href="#"
+                                            class="text-decoration-none text-white ms-2">Email</a></span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker"></i><span class="text-white ms-2">Main Str. no 45-46,
+                                        b3, 56832, Los Angeles, CA</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="subscribe-form">
+                            <form class="was-validated d-flex align-items-center">
+                                <input class="form-control is-invalid px-3 py-2 rounded-3 border-0" type="email"
+                                    placeholder="Your email" required />
+                                <input class="px-3 py-2 rounded-3 border-0 ms-2 text-white btn_L"
+                                    data-bs-target="#exampleModalToggle" data-bs-toggle="modal" type="submit"
+                                    value="Send" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content btn_F">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-3 fw-bolder text-white" id="exampleModalToggleLabel">
+                            Your Mail
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body fs-3 fw-bolder text-white">
+                        Successfully Sent...<img class="text-white bg-black" src="./Imgs/icons8-done.gif" alt="icon"
+                            style="width: 30px !important; height: 30px !important" />
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn_L bg-black text-white fw-bold" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">
+                            OK
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="m-0 text-center p-3">
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ff4500" fill-opacity="1"
+                d="M0,160L34.3,181.3C68.6,203,137,245,206,224C274.3,203,343,117,411,112C480,107,549,181,617,224C685.7,267,754,277,823,256C891.4,235,960,181,1029,133.3C1097.1,85,1166,43,1234,53.3C1302.9,64,1371,128,1406,160L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>
+    </footer>
+    <div class="scrollTop">
+        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
